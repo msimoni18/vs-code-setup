@@ -1,0 +1,66 @@
+{
+  "editor.fontSize": 14,
+  "files.autoSave": "off",
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 14,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.minimap.enabled": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.bracketSpacing": true,
+  "prettier.bracketSameLine": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false, // Disable and handle through codeActionsOnSave to use prettier then eslint
+  "editor.cursorBlinking": "expand",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.formatDocument": true,
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "left": {
+        "custom": {
+          "borderWidth": "0 0 0 3px",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px"
+        }
+      },
+      "right": {
+        "custom": {
+          "borderWidth": "0 3px 0 0",
+          "borderStyle": "solid",
+          "borderColor": "yellow",
+          "borderRadius": "5px"
+        }
+      }
+    }
+  },
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "git.enableSmartCommit": true,
+  "markdown.preview.fontSize": 14,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.foldersAllDefaultIcon": true
+}
+
+// Old stuff not implement above
+// {
+//   "files.trimTrailingWhitespace": true,
+//   "eslint.validate": ["javascript"],
+//   "eslint.format.enable": true,
+//   "[python]": {
+//     "editor.formatOnType": true
+//   },
+// }
