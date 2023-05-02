@@ -1,7 +1,7 @@
 {
   "editor.fontSize": 14,
   "files.autoSave": "off",
-  "editor.tabSize": 1,
+  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 14,
   "emmet.includeLanguages": {
@@ -24,6 +24,10 @@
     "source.fixAll.eslint": true
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "highlight-matching-tag.styles": {
@@ -52,7 +56,11 @@
   "editor.guides.bracketPairs": true,
   "window.zoomLevel": 0,
   "workbench.iconTheme": "vscode-icons",
-  "vsicons.presets.foldersAllDefaultIcon": true
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "[python]": {
+    "editor.formatOnType": true
+  }
 }
 
 // Old stuff not implement above
