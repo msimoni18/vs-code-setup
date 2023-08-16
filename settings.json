@@ -23,10 +23,22 @@
     "source.formatDocument": true,
     "source.fixAll.eslint": true
   },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.tabSize": 4
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -58,9 +70,8 @@
   "workbench.iconTheme": "vscode-icons",
   "vsicons.presets.foldersAllDefaultIcon": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "[python]": {
-    "editor.formatOnType": true
-  }
+  "git.openRepositoryInParentFolders": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always"
 }
 
 // Old stuff not implement above
