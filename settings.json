@@ -1,47 +1,45 @@
 {
-  "editor.fontSize": 14,
   "files.autoSave": "off",
+
+  /***** tailwind *****/
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  /********************/
+
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+
+  "editor.fontSize": 16,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[yaml]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
   "emmet.triggerExpansionOnTab": true,
-  "editor.minimap.enabled": false,
-  "prettier.jsxSingleQuote": false,
-  "prettier.semi": true,
-  "prettier.singleQuote": false,
-  "prettier.bracketSpacing": true,
-  "prettier.bracketSameLine": false,
+
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": false, // Disable and handle through codeActionsOnSave to use prettier then eslint
-  "editor.cursorBlinking": "expand",
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.formatDocument": true,
-    "source.fixAll.eslint": true
-  },
-  "[python]": {
-    "editor.formatOnType": true,
-    "editor.tabSize": 4
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
   "highlight-matching-tag.styles": {
     "opening": {
       "left": {
@@ -62,24 +60,18 @@
       }
     }
   },
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
   "git.enableSmartCommit": true,
+  "git.openRepositoryInParentFolders": "never",
+  "git.path": "/usr/bin/git",
+
   "markdown.preview.fontSize": 14,
-  "editor.guides.bracketPairs": true,
-  "window.zoomLevel": 0,
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+
   "workbench.iconTheme": "vscode-icons",
+
   "vsicons.presets.foldersAllDefaultIcon": true,
   "vsicons.dontShowNewVersionMessage": true,
-  "git.openRepositoryInParentFolders": "never",
-  "typescript.updateImportsOnFileMove.enabled": "always"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "jupyter.askForKernelRestart": false
 }
-
-// Old stuff not implement above
-// {
-//   "files.trimTrailingWhitespace": true,
-//   "eslint.validate": ["javascript"],
-//   "eslint.format.enable": true,
-//   "[python]": {
-//     "editor.formatOnType": true
-//   },
-// }
